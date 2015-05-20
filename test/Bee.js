@@ -3,7 +3,7 @@ describe('Bee class functionality', function() {
   verifyClass(Bee).followsPattern('pseudoclassical', {}, false);
 
   beforeEach(function() {
-    bee = new Bee();
+    bee = new Bee(5, 'yellow', 'jelly', 'keep on growing');
   });
 
   /*  Overwrite methods from superclass  */
